@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="assets/falia_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbd5ead694.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #022E4F;">
+  <hr  class="box_tf">
+  <img src="img/bg2.png" style="position: absolute; width: 440px; height: 189px; left: 415px; top: -68px;">
+    <p class="title">Transfer</p>
+    <a href="ainiD_Transfer1.html"><i class="fa-solid fa-arrow-left fa-2xl" style="color:#ffffff; position: absolute; top: 70px; left: 440px;"></i></a>
+    <div>
+        <span class="container_tf"></span>
+        <p class="font_tf">Nomor Tujuan</p>
+        <img src="img/dot_tf.png" class="penerima">
+        <p class="font_tf" style="top: 57px; left: 452px; font-size: 19px;">PB</p>
+        <p class="font_tf" style="top: 43px; left: 510px; color: black; font-size: 13px;">POLITEKNIK NEGERI BANDUNG 
+            <br>BANK BRI - 067201000361302
+        </p>
+        <div class="checkbox-wrapper-4" style="position: absolute; margin-left: 440px; font-size: 12px; margin-top: 230px; color: #ACACAC;">
+            <input class="inp-cbx" id="morning" type="checkbox"/>
+            <label class="cbx" for="morning"><span>
+            <svg width="12px" height="10px">
+              <use xlink:href="#check-4"></use>
+            </svg></span>
+            <span style="font-family: 'Poppins';">SIMPAN UNTUK SELANJUTNYA</span>
+        </label>
+            <svg class="inline-svg">
+              <symbol id="check-4" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </symbol>
+            </svg>
+        </div>
+    </div>
+
+    <div>
+        <span class="container_tf1"></span>
+        <p class="font_tf" style="top: 200px;">Nominal Transfer</p>
+        <form style="max-width:250px;margin:auto;">
+            <div class="input-icons">
+                <i class="fa-solid fa-money-bill fa-2xl icon">
+              </i>
+                <input class="input-field" 
+                       type="text" 
+                       id="rupiah"
+                       placeholder="RP.000">
+            </div>
+        </form>
+            <p class="font_tf" style="font-size: 8px; left: 665px; top: 285px; color: red;">Minimal Transfer Rp. 10.000</p>
+        <p class="font_tf" style="top: 320px;">Sumber Dana</p>
+        <span class="box_sumber"></span>
+        <span class="dot_sumber"></span>
+        <p class="font_tf" style="top: 384px; left: 489px; font-size: 19px; color: #ffffff;">AD</p>
+        <p class="font_tf" style="top: 369px; left: 543px; color: black; font-size: 14px;">1357 0908 7896 543
+        <br>Rp.200.000.000</p>
+        <i class="fas fa-chevron-down fa-xl" style=" position: absolute; top: 515px; left: 750px; color: #1876c6;"></i>
+        <a href="ainiD_Transfer2.html"><button type="button" class="button_login">TRANSFER</button></a>
+    </div>
+
+    <div>
+      <span class="box_card"></span>
+      <img src="img/card.png" class="bg_card">
+      <i class="fa-solid fa-star fa-xl" style="position: absolute; color: #ffd43b; top: 655px; left: 595px;"></i>
+      <p class="font_tf" style="top: 521px; left: 633px; color: black; font-size: 15px; line-height: 30px;">1357 0908 7896 543</p>
+      <p class="font_tf" style="top: 555px; left: 598px; color: black; font-size: 15px; line-height: 30px; font-weight: 100;">Aini Salma Davina</p>
+      <p class="font_tf" style="top: 621px; left: 710px; color: black; font-size: 15px; line-height: 30px;">Rp.200.000.000</p>
+    </div>
+    
+
+<!-- JAVA SCRIPT -->
+<script type="text/javascript">
+		
+		var rupiah = document.getElementById('rupiah');
+		rupiah.addEventListener('keyup', function(e){
+			// tambahkan 'Rp.' pada saat form di ketik
+			// gunakan fungsi formatRupiah() untuk mengubah angka yang di ketik menjadi format angka
+			rupiah.value = formatRupiah(this.value, 'Rp. ');
+		});
+ 
+		/* Fungsi formatRupiah */
+		function formatRupiah(angka, prefix){
+			var number_string = angka.replace(/[^,\d]/g, '').toString(),
+			split   		= number_string.split(','),
+			sisa     		= split[0].length % 3,
+			rupiah     		= split[0].substr(0, sisa),
+			ribuan     		= split[0].substr(sisa).match(/\d{3}/gi);
+ 
+			// tambahkan titik jika yang di input sudah menjadi angka ribuan
+			if(ribuan){
+				separator = sisa ? '.' : '';
+				rupiah += separator + ribuan.join('.');
+			}
+ 
+			rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+			return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+		}
+	</script>
+</body>
+</html>

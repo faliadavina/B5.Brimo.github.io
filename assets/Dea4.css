@@ -1,0 +1,182 @@
+.header{
+    position: absolute; 
+    width: 433px; 
+    height: 180px; 
+    left: 415px; 
+    top: -58px;
+}
+
+body{
+    background: #022E4F;
+}
+
+.container{
+    position: absolute;
+    background: #FFFFFF;
+    margin-left: 408px;
+    width: 432px; 
+    height: 780px; 
+    z-index: -1;
+
+}
+
+#panah{
+    color:#ffffff; 
+    position: absolute; 
+    top: 50px; 
+    left: 455px;
+    font-size: 1.5rem;
+}
+
+h2{
+    position: absolute; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    left: 530px;
+    top: -15px; 
+  }
+
+  .transfer-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+    margin-left: 40px;
+}
+
+form{
+    margin-top: 150px;
+	width: 360px;
+    height:400px;
+}
+
+.i{
+	color: #726c6c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 1.8rem;
+}
+
+.i i{
+	transition: .3s;
+}
+
+.transfer-content .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 3% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.login-content .input-div.one{
+	margin-top: 0;
+}
+
+.input-div > div{
+    position: relative;
+	height: 55px;
+}
+
+.input-div > div > h5{
+	position: absolute;
+	left: 20px;
+	top: 15%;
+	transform: translateY(-50%);
+	color: black;
+	font-size: 16px;
+	transition: .3s;
+}
+
+.input-div:before, .input-div:after{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	width: 0%;
+	height: 2px;
+	background-color: #1876C6;
+	transition: .4s;
+}
+
+.input-div:before{
+	right: 50%;
+}
+
+.input-div:after{
+	left: 50%;
+}
+
+.input-div.focus:before, .input-div.focus:after{
+	width: 50%;
+}
+
+.input-div.focus > div > h5{
+	top: -20px;
+	font-size: 15px;
+}
+
+.input-div.focus > .i > i{
+	color: #1876C6;
+}
+
+.input-div > div > input{
+	position: absolute;
+	left: 12px;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0rem 0.7rem;
+	font-size: 1.2rem;
+	color: #555;
+	font-family: 'poppins', sans-serif;
+}
+
+
+.transfer-content h5{
+	margin: 15px 0;
+	color: black;
+	text-transform: uppercase;
+	font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.transfer-content p{
+	margin: 15px 0;
+	color: #1876C6;
+	text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.input-div.pass{
+	margin-bottom: 4px;
+}
+
+#lanjut {
+	width: 370px; /* tambahkan properti width */
+	height: 50px;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #1f79c8, #1876C6, #1f79c8);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin-top: 320px;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+  }

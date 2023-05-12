@@ -1,0 +1,629 @@
+/*AINI DIAH RAHMAWATI | 211524033 */
+
+body{
+    width: 100%;
+    max-width: 400px;
+    background-color: #083348;
+}
+
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#HalamanUtama{
+    /* background-color:black ; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    background-size: contain;
+}
+
+.blob{
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../img/blob1.png');
+    background-size: cover;
+}
+
+.Logo img{
+    width: 50px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.TulisanAtas{
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.Saldo{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    margin-bottom:-5px;
+    margin-right: 125px;
+}
+
+.saldo{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-bottom:-5px;
+    margin-top: -50px;
+    margin-left: 140px;
+}
+
+.fa-eye-slash{
+    margin-left: 130px;
+    margin-top: -18px;
+    position: absolute;
+}
+.tombol button{
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+    margin-top: 15px;
+}
+
+.card{
+    background-color: #fff;
+    width: 90%;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+  }
+
+.fitur1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.transfer img{
+    width: 115px;
+    margin-top: -320px;
+    margin-right: 80px;
+}
+
+.teksDompet{
+    font-family: Poppins;
+    color: #00437C;
+    font-weight: 500;
+    margin-right: 230px;
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+
+.cardGopay{
+    background-color: #fff;
+    width: 170px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 185px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.cardGopay img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.gopay{
+    font-family: Poppins;
+    font-size:13px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.hubungkan{
+    font-family: Poppins;
+    color: #00437C;
+    font-size:13px;
+    margin-right: 0px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.cardSegera{
+    background-color: #fff;
+    width:170px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 180px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.cardSegera img{
+    width: 65px;
+    height: 65px;
+    margin-top: -2px;
+    margin-right: 100px;
+}
+
+.segera{
+    font-family: Poppins;
+    color:black;
+    font-size:13px;
+    margin-right: 0px;
+    margin-left: 40px;
+    margin-top: -48px;
+    margin-bottom: 10px;
+}
+
+.teksCatatan{
+    font-family: Poppins;
+    color: #00437C;
+    font-weight: 500;
+    margin-right: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+
+.cardCatatan{
+    background-color: #fff;
+    width: 87%;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 185px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.line1{
+    width: 90px;
+    height: 50%;
+    border-width: 2px;
+    margin: auto;
+    border-color:rgb(214, 214, 214);
+    transform: rotate(90deg);
+    margin-top: -85px;
+}
+.line2{
+    width: 350px;
+    height: 50%;
+    border-width: 2px;
+    margin: auto;
+    border-color:rgb(214, 214, 214);
+    margin-top: 45px;
+}
+
+.panahBawah{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(54, 216, 0);
+    border-width: 5px;
+    margin: auto;
+    margin-top: -85px;
+    margin-right: 78%;
+}
+
+.teksPemasukan{
+    font-family: Poppins;
+    color:rgb(162, 162, 162);
+    font-size:13px;
+    margin-right: 200px;
+    margin-left: 40px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.rpP{
+    font-family: Poppins;
+    font-size:13px;
+    margin-right: 250px;
+    margin-left: 40px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.panahAtas{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: red;
+    border-width: 5px;
+    margin: auto;
+    margin-top: -70px;
+    margin-left: 53%;
+}
+
+.teksPengeluaran{
+    font-family: Poppins;
+    color:rgb(162, 162, 162);
+    font-size:13px;
+    margin-right: -100px;
+    margin-left: 90px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.rpP1{
+    font-family: Poppins;
+    font-size:13px;
+    margin-right: -100px;
+    margin-left: 90px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.selisih{
+    font-family: Poppins;
+    color:rgb(162, 162, 162);
+    font-size:14px;
+    margin-right: 200x;
+    margin-left: -120px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.angkaSelisih{
+    font-family: Poppins;
+    color:red;
+    font-size:14px;
+    margin-right: 200x;
+    margin-left: 40px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.teksSpesial{
+    font-family: Poppins;
+    color: #00437C;
+    font-weight: 500;
+    margin-right: 230px;
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+
+.cardSpesial1{
+    background-color: #fff;
+    width: 170px;
+    height: 120px;
+    margin-top: 50px;
+    margin-right: 185px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.cardSpesial1 img{
+    width: 171px;
+    height: 80px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.Spesial1{
+    font-family: Poppins;
+    color: black;
+    font-size:13px;
+    margin-right: 0px;
+    margin-left: -40px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.cardSpesial2{
+    background-color: #fff;
+    width:170px;
+    height: 120px;
+    margin-top: -120px;
+    margin-left: 180px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.cardSpesial2 img{
+    width: 171px;
+    height: 80px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.Spesial2{
+    font-family: Poppins;
+    color: black;
+    font-size:13px;
+    font-size:13px;
+    margin-right: 0px;
+    margin-left: -40px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.menuFooter img{
+    width: 100%;
+    height: 50%;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+/* PAGE TRANSFER */
+.gambarHeader{
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../img/atas.png');
+    background-size: cover;
+}
+
+.tulisanTransfer{
+    font-family: Poppins;
+    color: white;
+    font-size: 20px;
+    margin-top: -130px;
+    margin-bottom: 50px;
+    margin-right: 180px;
+}
+
+.panahKiri{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    color: white;
+    margin: auto;
+    margin-top: -105px;
+    margin-right: 84%;
+}
+
+.tulisanTerakhir{
+    font-family: Poppins;
+    color: #1876C6;
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 200px;
+    margin-left: 15px;
+    margin-top: 120px;
+}
+
+.namaTransfer img{
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.cardRiwayat2{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+                2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.search1{
+    border-radius: 15px;
+    padding: 5px;
+    width: 350px;
+    height: 45px;
+    background-color: #e7f4ff;
+    border: 1px solid transparent;
+}
+
+.search1::placeholder{
+    color: rgba(49, 49, 49, 0.295);
+    font-size: 15px;
+    font-family: Poppins;
+    padding-left: 40px;
+}
+
+.search-icon {
+    margin-right: 340px;
+    margin-top: -30px;
+    float:right;
+    position: relative;
+}
+
+.clear-icon{
+    margin-left: 340px;
+    margin-top: -30px;
+    float:left;
+    position: relative;
+}
+
+.btnTambah button{
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: #005d8c;
+    margin-top: 210px;
+    width: 361px;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* PAGE KONFIRMASI */
+.tulisanKonfirmasi{
+    font-family: Poppins;
+    color: white;
+    font-size: 20px;
+    margin-top: -130px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0082c3;
+    margin-right: 250px;
+}
+
+.circle2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #b1e5ff;
+    margin-right: 250px;
+}
+
+.circle-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin-top: 40px;
+}
+
+.circle-label2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #0082c3;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin-top: 40px;
+}
+
+.nama{
+    font-family: Poppins;
+    color: black;
+    font-size:17px;
+    margin-left: 30px;
+    margin-top: -70px;
+}
+
+.noRek{
+    font-family: Poppins;
+    color: black;
+    font-weight: normal;
+    font-size:17px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.nomorTujuan{
+    margin-top: 300px;
+}
+
+.tulisanTF{
+    font-family: Poppins;
+    color: #1876C6;
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 200px;
+    margin-left: 15px;
+    margin-top: -270px;
+}
+
+.nama2{
+    font-family: Poppins;
+    color: black;
+    font-size:14px;
+    margin-left: 70px;
+    margin-top: -60px;
+}
+
+.noRek2{
+    font-family: Poppins;
+    color: black;
+    font-weight: normal;
+    font-size:14px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+.tulisanCatatan{
+    font-family: Poppins;
+    color: #1876C6;
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 230px;
+    margin-top: 30px;
+}
+
+.underline-textbox {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.345);
+    outline: none;
+    width: 75%;
+}
+
+.angka{
+    margin-left: 280px;
+    font-family: Poppins;
+    font-size: 12px;
+    margin-top: 10px;
+    color: darkgrey;
+}
+
+.cardDetail1{
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tulisanDetail{
+    font-family: Poppins;
+    color: #1876C6;
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 230px;
+    margin-top: -180px;
+}
+
+.no{
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.angkaa{
+    color: black;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+.no1{
+    color: black;
+    font-size: 15px;
+    margin-left: 45px;
+}
+
+.garis{
+    width: 300px;
+    height: 4px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.345);
+    margin-left: 60px;
+}
+
+.btnTransfer button{
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: #005d8c;
+    margin-top: 30px;
+    width: 361px;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+

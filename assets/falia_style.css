@@ -1,0 +1,547 @@
+.menu{
+    margin-left: 430px;
+}
+
+.box1{
+    position: absolute;
+    border-bottom: 800px solid #fff;
+    margin-top: 100px;
+    width: 439.5px;
+    left: 414.5px;
+}
+
+.dot {
+  position: absolute;
+  margin-top: 41px;
+  margin-left: -25px;
+  height: 24px;
+  width: 24px;
+  background-color: #5DC868;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 430px;
+  height: 26.5px;
+  width: 26.5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.line{
+  position: absolute;
+  border-bottom: 4px solid #000;
+  margin-top: 30px;
+  width: 439px;
+  opacity: 0.2;
+  left: 415px;
+}
+
+.font_judul {
+    width: 129px;
+    color: rgba(24,118,198,1);
+    position: absolute;
+    top: 397px;
+    left: 450px;  
+    font-family: 'Poppins';
+    font-weight: Bold;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+}
+
+.dot3 {
+  position: absolute;
+  margin-top: 323px;
+  margin-left: 570px;
+  height: 24px;
+  width: 24px;
+  background-color: rgba(24,118,198,1);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.font_fastMenu{
+  position: absolute;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 22px;
+  left: 9px;
+  top: -4px;
+}
+
+.dot_menu{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    margin-left: 30px;
+    display: inline-block;
+    box-shadow: -2px -2px 2px rgba(0,0,0,0.4);
+}
+
+.font_menu{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+}
+
+.button_login{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 22px;
+    background-color: rgba(24,118,198,1);
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: 371px;
+    height: 71px;
+    top: 830px;
+    left: 450px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.icon1{
+    position: absolute;
+    top: 445px;
+    width: 63px;
+    height: 63px;
+}
+
+.icon2{
+    position: absolute;
+    top: 587px;
+    width: 63px;
+    height: 63px;
+}
+
+/* Call Center Page */
+.box{
+    position: absolute;
+    border-bottom: 1130px solid #fff;
+    margin-top: 100px;
+    width: 439.5px;
+    left: 414.5px;
+}
+
+.title{
+    position: absolute;
+    left: 580px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.bg{
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 431px;
+    top: 108px;
+}
+
+.font_call{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(24,118,198,1);
+    top: 470px;
+    left: 570px;
+}
+
+.font_call2{
+    position: absolute;
+    margin: 25px;
+    width: 350px;
+    height: 80px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    top: 500px;
+    left: 440px;
+}
+
+.icon_call{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 430px;
+}
+
+.font_call3{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #000;
+    opacity: 0.5;
+    left: 490px;
+}
+
+.font_call4{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #000;
+    left: 490px;
+}
+
+.line2{
+    position: absolute;
+    border-bottom: 3px solid #000;
+    width: 415px;
+    opacity: 0.2;
+    left: 420px;
+}
+
+.row{
+    position: absolute;
+    right: 10px;
+}
+
+/* transfer page */
+.box_tf{
+    position: absolute;
+    border-bottom: 820px solid #F7F5F5;
+    margin-top: 80px;
+    width: 439.5px;
+    left: 415px;
+}
+
+.container_tf{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-bottom: 180px solid #fff;
+    margin-top: 100px;
+    width: 439.5px;
+    left: 415px;
+}
+
+.container_tf1{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 13px;
+    border-bottom: 600px solid #fff;
+    margin-top: 300px;
+    width: 439.5px;
+    left: 415px;
+    border-radius: 4%;
+}
+
+.font_tf{
+    position: absolute;
+    font-family: 'Poppins';
+    color: #1876C6;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 120px;
+    left: 440px;
+    line-height: 30px; 
+    letter-spacing: 1px;
+}
+
+.penerima{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 427px;
+    top: 157px;
+}
+
+.checkbox-wrapper-4 * {
+  box-sizing: border-box;
+}
+.checkbox-wrapper-4 .cbx {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+.checkbox-wrapper-4 .cbx:not(:last-child) {
+  margin-right: 6px;
+}
+.checkbox-wrapper-4 .cbx:hover {
+  background: rgba(0,119,255,0.06);
+}
+.checkbox-wrapper-4 .cbx span {
+  float: left;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-4 .cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  transform: scale(1);
+  border: 1px solid #cccfdb;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 1px rgba(0,16,75,0.05);
+}
+.checkbox-wrapper-4 .cbx span:first-child svg {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-4 .cbx span:last-child {
+  padding-left: 8px;
+  line-height: 18px;
+}
+.checkbox-wrapper-4 .cbx:hover span:first-child {
+  border-color: #07f;
+}
+.checkbox-wrapper-4 .inp-cbx {
+  position: absolute;
+  visibility: hidden;
+}
+.checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child {
+  background: #07f;
+  border-color: #07f;
+  animation: wave-4 0.4s ease;
+}
+.checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-4 .inline-svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+@media screen and (max-width: 640px) {
+  .checkbox-wrapper-4 .cbx {
+    width: 100%;
+    display: inline-block;
+  }
+}
+@-moz-keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@-webkit-keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@-o-keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  position: absolute;
+  width: 330px;
+  margin-top: 345px;
+  left: 440px;
+}
+
+.icon {
+  padding: 10px;
+  color: #797979;
+  min-width: 50px;
+  text-align: center;
+  top: 17px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 20px;
+  text-align: right;
+  border-radius: 10px;
+  border: none;
+  background-color: #F7F5F5;
+}
+
+.box_sumber{
+  position: absolute;
+  border-bottom: 100px solid #F7F5F5;
+  margin-top: 460px;
+  width: 350px;
+  left: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dot_sumber{
+  position: absolute;
+  margin-top: 485px;
+  margin-left: 470px;
+  height: 50px;
+  width: 50px;
+  background-color: #1876C6;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.box_card{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-bottom: 180px solid #fff;
+    margin-top: 600px;
+    border-radius: 20px;
+    width: 439.5px;
+    left: 415px;
+    box-shadow: -2px -2px 2px rgba(0,0,0,0.25);
+}
+
+.bg_card{
+  position: absolute;
+  top: 550px;
+  left: 415px;
+  width: 190px;
+  height: 350px;
+  overflow: hidden;
+}
+
+/* Bukti Transfer */
+.box_bt{
+  position: absolute;
+  border-bottom: 835px solid #F7F5F5;
+  margin-top: 0px;
+  width: 439.5px;
+  left: 415px;
+}
+
+.container_bt{
+  position: absolute;
+  border-bottom: 180px solid #1676c6;
+  margin-top: -10px;
+  width: 439.5px;
+}
+
+.bg_bt{
+  position: absolute;
+  top: 40px;
+  width: 559.5px;
+  height: 800px;
+  margin-left: -60px;
+}
+
+.font_bt{
+  position: absolute;
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  top: 130px;
+  left: 138px;
+}
+
+.bt2{
+  position: absolute;
+  margin: 25px;
+  width: 280px;
+  height: 80px;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  text-align: left; 
+  top: 145px;
+  left: 470px;
+  opacity: 0.8;
+  /* outline: dashed 1px black; */
+}
+
+.bt3{
+  position: absolute;
+  margin: 25px;
+  width: 280px;
+  height: 190px;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  text-align: left; 
+  top: 250px;
+  left: 470px;
+  opacity: 0.8;
+  /* outline: dashed 1px black; */
+  line-height: 23px;
+}
+
+.bt4{
+  position: absolute;
+  margin: 25px;
+  width: 280px;
+  height: 100px;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  text-align: left; 
+  top: 485px;
+  left: 470px;
+  opacity: 0.8;
+  /* outline: dashed 1px black; */
+  line-height: 23px;
+}
+
+.bt5{
+  position: absolute;
+  margin: 25px;
+  width: 280px;
+  height: 50px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  color: #0B4799;
+  text-align: right; 
+  top: 600px;
+  left: 470px;
+  /* opacity: 0; */
+  /* outline: dashed 1px black; */
+  line-height: 23px;
+
+}
+
+.button{
+  position: absolute;
+  font-family: 'Poppins';
+  font-size: 15px;
+  width: 320px;
+  height: 51px;
+  margin-top: 700px;
+  margin-left: 476px;
+  font-weight: 700;
+}

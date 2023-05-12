@@ -1,0 +1,120 @@
+.pin-login {
+    display: inline-block;
+    font-size: 28px;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    font-family: sans-serif;
+  }
+
+body{
+  background: linear-gradient(120deg, #0763B1 32.62%, rgba(22, 101, 169, 0) 275.41%);
+
+}
+
+.line{
+    position: absolute;
+    border-bottom: 4px solid #000;
+    margin-top: 0px;
+    width: 409px;
+    opacity: 0.2;
+    left: 415px;
+}
+
+.pin-login__text {
+   
+    padding: 2px;
+    display: block;
+    width: 30%;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    background: rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: default;
+    margin-left: 440px;
+  }
+
+  .pin-login__text--error {
+    color: #FFFFFF;
+    background: #d81616;
+    animation-name: loginError;
+    animation-duration: 0.4;
+    animation-iteration-count: 2;
+  }
+
+  @keyframes loginError {
+    25% {
+      transform: translateX(-3px);
+    }
+    75% {
+      transform: translateX(3px);
+    }
+  }
+
+  .pin-login__key {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.pin-login__numpad{
+    align-items: center;
+    padding: 25px;
+    margin-left:440px;
+}
+
+.pin-login__key:active {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+  }
+  
+  i{
+    color:#ffffff; 
+    position: absolute; 
+    top: 60px; 
+    left: 430px;
+    font-size: 2rem;
+}
+
+input {
+    color: white;
+  }
+
+  .forgot{
+	display: block;
+	margin-left:700px;
+    margin-top:10px;
+	text-decoration: none;
+	color: white;
+	font-size: 0.9rem;
+	transition: .3s;
+    font-family: 'Poppins';
+}
+
+a:hover{
+	color: #5eb1f9;
+}

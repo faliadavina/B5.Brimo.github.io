@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="assets/Dea1.css">
+</head>
+<body>
+    <img class="header" src = "img/header.png">
+    <span class="dot2"></span>
+    <span class="dot"></span>
+    <hr class="line">
+    <div class="img">
+        <img class = "ikon" src ="img/ikon.png">
+        <img class = "logo" src = "img/brimo.png">
+    </div> 
+    <div class="container">
+        <div class="login-content">
+            <form>
+                <img class = "avatar" src ="img/avatar.svg">
+                <h2 class="title">Selamat Datang</h2>
+                <div class="input-div one">
+                   <div class="i">
+                           <i class="fas fa-user"></i>
+                   </div>
+                   <div class="div">
+                           <h5>Username</h5>
+                           <input type="text" class="input" id = "username">
+                   </div>
+                </div>
+                <div class="input-div pass">
+                   <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                   </div>
+                   <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input" id = "password">
+                </div>
+             </div>
+             <a class = "forgot" href="#">Forgot Password?</a>
+             <div class="error-message" style="display:none"><br></div>
+             <div class="warning-message" style="display:none">Username dan password harus terisi!</div>
+             <div class="btn-container">
+                <div class="btn-container2">
+                  <!-- <a href="fingerprint.html"> -->
+                  <button type = "button" class="btn" id="submit">LOGIN</button>
+                  <!-- </a> -->
+                  <a href="Dea2.html">
+                    <button type="button" id="fingerprint-button" class="btn">
+                      <i class="fas fa-fingerprint"></i>
+                    </button>
+                  </a>
+                </div>
+                <a href="index.html" style="text-decoration: none;">
+                  <button type="button" class="btn" id="cancel">CANCEL</button>
+                </a>
+              </div>
+
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/Dea1.js"></script>
+</body>
+</html>
