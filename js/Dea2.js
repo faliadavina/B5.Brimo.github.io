@@ -111,12 +111,12 @@ class PinLogin {
                 this.el.main.appendChild(errorEl);
                 setTimeout(() => {
                     errorEl.remove();
-                    }, 5000);
+                    }, 6000);
                 if (remainingAttempts === 0) {
                     setTimeout(() => {
                         window.location.href = 'login.html';
                         errorEl.remove();
-                        }, 5000);
+                        }, 6000);
                     }
                 }
             }
