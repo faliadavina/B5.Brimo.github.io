@@ -95,7 +95,7 @@ class PinLogin {
                 this.el.main.appendChild(errorEl);
                 setTimeout(() => {
                     errorEl.remove();
-                }, 20000);
+                }, 2000);
             } else {
                 const errorEl = document.createElement("div");
                 errorEl.classList.add("error-message");
@@ -111,12 +111,12 @@ class PinLogin {
                 this.el.main.appendChild(errorEl);
                 setTimeout(() => {
                     errorEl.remove();
-                    }, 20000);
+                    }, 5000);
                 if (remainingAttempts === 0) {
                     setTimeout(() => {
                         window.location.href = 'login.html';
                         errorEl.remove();
-                        }, 20000);
+                        }, 5000);
                     }
                 }
             }
